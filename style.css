@@ -30,7 +30,6 @@ body {
 header {
     background-image: linear-gradient(to right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
     border-radius: 30px 30px 6px 6px;
-    box-shadow: 0 3px 4px #ccc;
 }
 .notch {
     height: 27px;
@@ -42,12 +41,27 @@ header {
 .tab {
     display: flex;
 }
+.arrow {
+    width: 16px;
+    height: 19px;
+    margin: auto;
+    margin-right: 0;
+    margin-left: 10px;
+}
 .avatar {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     border: 2px solid white;
     margin: 15px;
+    margin-left: 5px;
+}
+.menu {
+    display: flex;
+    width: 16px;
+    height: 16px;
+    margin: auto;
+    margin-right: 25px;
 }
 .info {
     margin-top: auto;
@@ -129,11 +143,31 @@ input[type=radio] {
 }
 .type {
     background-color: white;
-    padding: 15px 20px;
+    padding: 5px 10px;
     margin: 15px 10px;
     border-radius: 25px;
     color: hsl(206, 6%, 79%);
     font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.text {
+    display: flex;
+    width: 50%;
+    display: flex;
+}
+.submit {
+    background-color: hsl(271, 36%, 24%);
+    width: 18px;
+    height: 18px;
+    padding: 8px;
+    border-radius: 50%;
+    margin-right: -3.5px;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    margin-top: auto;
 }
 /* hero text */
 .hero-text {
@@ -177,6 +211,17 @@ p {
         width: 85%;
         max-width: 500px;
         margin: auto;
+    }
+    h1 {
+        font-size: 45px;
+        line-height: 90px;
+    }
+    p {
+        font-size: 20px;
+        line-height: 45px;
+    }
+    .attribution {
+        display: none;
     }
 }
     .attribution { font-size: 11px; text-align: center; }
