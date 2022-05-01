@@ -38,6 +38,6 @@ Users should be able to:
 
 - Website - [Treasure Ajefu](https://github.com/cybergeni)
 - Frontend Mentor - [@cybergeni](https://www.frontendmentor.io/profile/cybergeni)
-- Twitter - [@cybergeni](https://www.twitter.com/cybergeni)
+- Twitter - [@cybergenie](https://www.twitter.com/cybergenie_)
 
 
